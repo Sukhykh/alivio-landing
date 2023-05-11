@@ -1,0 +1,68 @@
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card:nth-child(2) {
+    margin-top: 28.7rem;
+}
+
+.card:nth-child(3) {
+    margin-top: 5.4rem;
+}
+
+.card__title {
+    position: relative;
+    font-family: var(--georgia);
+    font-weight: 400;
+    font-size: 15rem;
+    line-height: 22.5rem;
+    color: var(--cardTitle);
+}
+
+.card__title::after {
+    position: absolute;
+    bottom: 4.5rem;
+    font-family: var(--georgia);
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 4.5rem;
+    color: var(--black);
+}
+
+.card__title--one::after {
+    content: "Personalize";
+    left: 8.8rem;
+}
+
+.card__title--two::after {
+    content: "Write & Understand";
+    left: 7.7rem;
+}
+
+.card__title--three::after {
+    content: "Alivio!";
+    left: 12.4rem;
+}
+
+.card__text {
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+    max-width: 39rem;
+    font-family: var(--lato);
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: var(--howItWorks);
+}
+
+.card__img-wrapper {
+    max-width: 39rem;
+    height: auto;
+    border-radius: 1.2rem;
+}
+
+.card__img {
+    width: 100%;
+    height: auto;
+}

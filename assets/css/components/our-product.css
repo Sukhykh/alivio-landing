@@ -1,0 +1,81 @@
+.our-product__container {
+    max-width: 71.35vw;
+    width: 100%;
+    margin-inline: auto;
+}
+
+.our-product__wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-top: 12rem;
+    padding-bottom: 16.8rem;
+}
+
+.our-product__picture {
+    position: relative;
+}
+
+.our-product__img-wrapper {
+    margin-left: 6.1rem;
+    margin-bottom: 7.5rem;
+    max-width: 64rem;
+    width: 100%;
+    border-radius: 1.9rem;
+}
+
+.our-product__img {
+    width: 100%;
+    height: auto;
+}
+
+.our-product__content {
+    max-width: 58.4rem;
+}
+
+.our-product__descr {
+    margin-bottom: 1rem;
+    font-family: var(--lato);
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 3.9rem;
+    color: var(--ourProduct);
+}
+
+.our-product__title {
+    margin-bottom: 2rem;
+    font-family: var(--georgia);
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 7.9rem;
+    color: var(--green);
+}
+
+.our-product__text {
+    max-width: 53rem;
+    font-family: var(--lato);
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3.1rem;
+    color: var(--ourProduct);
+}
+
+.our-product__button {
+    display: inline-block;
+    margin-top: 4rem;
+    padding: 2rem 5rem;
+    background-color: var(--green);
+    font-family: var(--lato);
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 0.4rem;
+    transition: opacity 0.3s linear;
+}
+
+.our-product__button:hover,
+.our-product__button:focus {
+    opacity: 0.7;
+}  

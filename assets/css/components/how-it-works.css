@@ -1,0 +1,53 @@
+.how-it-works__container {
+    max-width: 70.83vw;
+    width: 100%;
+    margin-inline: auto;
+}
+
+.how-it-works__wrapper {
+    padding-top: 16.9rem;
+    padding-bottom: 5.1rem;
+}
+
+.how-it-works__descr-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+}
+
+.how-it-works__subtitle {
+    font-family: var(--lato);
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3.8rem;
+    color: var(--howItWorks);
+}
+
+.how-it-works__title {
+    max-width: 58.4rem;
+    font-family: var(--georgia);
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 7.9rem;
+    color: var(--green);
+}
+
+.how-it-works__text {
+    max-width: 67.1rem;
+    font-family: var(--lato);
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: var(--howItWorks);
+}
+
+.how-it-works__cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 5.2rem;
+}
+
+
+

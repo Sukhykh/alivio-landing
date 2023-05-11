@@ -1,0 +1,36 @@
+@import 'fonts.css';
+@import 'variables.css';
+@import 'components/header.css';
+@import 'components/start.css';
+@import 'components/how-it-works.css';
+@import 'components/card.css';
+@import 'components/video.css';
+@import 'components/our-product.css';
+@import 'components/side-bar.css';
+@import 'components/footer.css';
+
+html {
+    height: 100vh;
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+}
+
+.hero-screen {
+    height: 100vh;
+}
+
+::-webkit-scrollbar {
+	width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--green);
+}

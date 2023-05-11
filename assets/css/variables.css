@@ -1,0 +1,22 @@
+
+:root {
+    /* colors */
+    --white: #ffffff;
+    --black: #000000;
+    --dark: #292929;
+    --gray: #D6D6D6;
+    --green: #01996D;
+    --greenDark: #245852;
+    --startBackground: #FAF7FF;
+    --startText: #484848;
+    --howItWorks: #424242;
+    --ourProduct: var(--howItWorks);
+    --cardTitle: rgba(1, 153, 109, 0.2);
+    --videoBackground: rgba(0, 0, 0, 0.2);
+    --social: #080809;
+
+    /* fonts */
+    --lato: 'Lato', sans-serif;
+    --georgia: 'Georgia', serif;
+    --poppins: 'Poppins', sans-serif;
+}
