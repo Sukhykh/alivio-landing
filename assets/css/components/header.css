@@ -12,6 +12,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     gap: 1rem;
     padding: 1.7rem 0;
 }
@@ -38,6 +39,7 @@
 
 .header__list {
     display: flex;
+    flex-wrap: wrap;
     gap: 7.2rem;
 }
 

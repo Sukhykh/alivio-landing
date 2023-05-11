@@ -19,13 +19,12 @@
 }
 
 .start__wrapper {
+    display: flex;
+    justify-content: flex-end;
     height: 100%;
 }
 
 .start__img-wrapper {
-    position: relative;
-    display: flex;
-    justify-content: flex-end;
     height: 100%;
 }
 
